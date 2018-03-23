@@ -19,7 +19,7 @@ const Parameters = () => (
      <List>
       <Subheader>Sensors</Subheader>
       <ListItem
-        primaryText= "IRSensor" rightToggle={<Toggle/>} />
+        primaryText= "IR Sensor" rightToggle={<Toggle/>} />
      </List>
      <Divider />
      <List>
