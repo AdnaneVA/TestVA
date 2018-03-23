@@ -86,11 +86,7 @@ function AutoPilot() {
     socket.emit('AUTO PILOT');
 }
 
-function setParamters() {
-    socket.emit('COM CLOUD', true);//, 'IR SENSOR', true); 
-}
 
-export { setParameters }; 
 export { MoveJoystick };
 export { MoveAccelerometer };
 export { Stop };
