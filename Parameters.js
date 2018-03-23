@@ -1,5 +1,5 @@
 import React from 'react';
-import './Parameters.css';
+// import './Parameters.css';
 import MobileTearSheet from '../../MobileTearSheet';
 import {List, ListItem} from 'material-ui/List'; 
 import Subheader from 'material-ui/Subheader'; 
