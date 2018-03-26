@@ -11,7 +11,7 @@ import Checkbox from 'material-ui/Checkbox';
 import Toggle from 'material-ui/Toggle'; 
 
 class CheckboxInteractivity extands React.Component{
-  state= { 
+  state = { 
     checked : false,
   }
   
@@ -63,6 +63,6 @@ const Parameters = () => (
     </div>
     );
     );
-); 
+}
 
 export default Parameters;
