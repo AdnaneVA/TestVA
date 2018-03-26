@@ -87,8 +87,10 @@ function AutoPilot() {
 }
 
 function Paramters() {
-    socket.emit('COM CLOUD', true, 'IR SENSOR', true); 
+	
+    socket.emit(true); 
 }
+
 
 export { Parameters }; 
 
