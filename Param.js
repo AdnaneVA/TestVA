@@ -24,12 +24,7 @@ class CheckboxInteractivity extands React.Component{
 }
 
 render () {
-  return(
-  
- 
-
-  
-
+  return (
 const Parameters = () => (
   <div>
     <MobileTearSheet>
@@ -67,7 +62,7 @@ const Parameters = () => (
     <MobileTearSheet>
     </div>
     );
-    }
+    );
 ); 
 
 export default Parameters;
