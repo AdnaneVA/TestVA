@@ -1,5 +1,4 @@
-import openSocket from 'socket.io-client';
-const  socket = openSocket('http://10.3.141.1:8000');
+
 var forwardDistance = 20;
 
 function MoveJoystick(degree, speed) {
