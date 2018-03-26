@@ -61,7 +61,7 @@ const Parameters = () => (
       />
       <ListItem primaryText="Azure" leftCheckbox={<Checkbox/>} 
       checked={this.state.checked}
-      onCheck={this.updateCheck.bind(this}
+      onCheck={this.updateCheck.bind(this)}
       />
      </List>
     <MobileTearSheet>
