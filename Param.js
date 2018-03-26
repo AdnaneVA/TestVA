@@ -10,7 +10,7 @@ import Divider from 'material-ui/Divider';
 import Checkbox from 'material-ui/Checkbox';
 import Toggle from 'material-ui/Toggle'; 
 
-class CheckboxInteractivity extands React.Component{
+class CheckboxInteractivity extends React.Component{
   state = { 
     checked : false,
   }
