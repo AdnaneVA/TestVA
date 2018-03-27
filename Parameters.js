@@ -17,12 +17,14 @@ class CheckboxInteractivity extends React.Component{
     checked : false,
   }
   
-  updateCheck() {
+  updateCheck(name) {
     this.setState((oldState) => {
     return {
       checked : !old.State.checked,
     }; 
+      sendParemeter({name: d})
   });
+    onCheck={this.updateCheck("AWSCheckBox")}
 }
 
 render () {
