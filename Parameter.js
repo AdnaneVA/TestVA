@@ -1,6 +1,6 @@
 
 import React from 'react';
-// import './Parameters.css';
+// import './Parameter.css';
 import MobileTearSheet from './MobileTearSheet.js'; 
 
 import List, {ListItem, 
@@ -29,7 +29,7 @@ class CheckboxInteractivity extends React.Component{
 
 render () {
   return (
-const Parameters = () => (
+const Parameter = () => (
   <div>
     <MobileTearSheet>
     <List>
@@ -69,4 +69,4 @@ const Parameters = () => (
     );
 }
 
-export default Parameters;
+export default Parameter;
