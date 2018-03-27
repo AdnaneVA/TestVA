@@ -1,6 +1,6 @@
 import React from 'react';
 // import './Parameters.css';
-import MobileTearSheet from 'MobiTearSheet.js'; 
+import MobileTearSheet from './MobileTearSheet.js'; 
 
 import List, {ListItem, 
   ListItemSecondaryAction,
