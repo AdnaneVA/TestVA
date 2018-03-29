@@ -8,7 +8,9 @@ var mpu9250 = require('mpu9250');
 
 
 //On souhaite afficher une droite positionnée selon l'endroit de l'obstacle 
-//Cas obstacle: devant (indice 1 2), à droite (3 4) , à gauche (5 6), devant à droite (7 8), devant à gauche (9 10) 
+//Chaque droite est définie par deux points
+//Cas d'obstacle: devant (indice 1 2), à droite (3 4) , à gauche (5 6), devant à droite (7 8), devant à gauche (9 10) 
+//par ex si un obstacle devant on utilisera les points (x1,y1) (x2,y2)
 var pos = { 
 x1:???, y1:???, 
 x2:???, y2:???, 
