@@ -30,7 +30,7 @@ class CheckboxInteractivity extends React.Component{
 render () {
   return (
 const Parameter = () => (
-  <div>
+  <div id="main">
     <MobileTearSheet>
     <List>
       primaryText="Parameters"
