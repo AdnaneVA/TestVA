@@ -6,8 +6,9 @@ import Parameter from './Parameter.js';
 var x=document.getElementById("main"); 
 var y=x.getElementsByTagName("ListItem"); 
 // y[0] -> IR sensor,  y[1]-> ComCloud, y[2] -> AWS, y[3] -> Azure 
-var paramList={IRSensor:false, ComCloud:false, AWS:false, Azure: false};      
+     
 function sendParameter() {
+  var paramList={IRSensor:false, ComCloud:false, AWS:false, Azure: false}; 
   paramList.IRSensor = (y[0].checked) ? true:false; 
   paramList.ComCloud = (y[1].checked) ? true:false;
   paramList.AWS = (y[2].checked) ? true:false; 
